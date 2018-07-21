@@ -2,7 +2,7 @@
 set -e
 set -o pipefail
 
-for relaytype in middle exit; do
+for relaytype in middle; do
 	sed -i 's/${RELAY_NICKNAME}/'"$RELAY_NICKNAME"'/g' "/etc/tor/torrc.$relaytype"
 	sed -i 's/${CONTACT_GPG_FINGERPRINT}/'"$CONTACT_GPG_FINGERPRINT"'/g' "/etc/tor/torrc.$relaytype"
 	sed -i 's/${CONTACT_NAME}/'"$CONTACT_NAME"'/g' "/etc/tor/torrc.$relaytype"
