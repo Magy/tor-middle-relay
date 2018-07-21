@@ -51,10 +51,10 @@ docker-compose up
 
 | Name                         | Description                                                                  | Default value |
 | ---------------------------- |:----------------------------------------------------------------------------:| -------------:|
-| **RELAY_NICKNAME**           | The nickname of your relay                                                   | hackdc |
+| **RELAY_NICKNAME**           | The nickname of your relay                                                   | hackdc        |
 | **CONTACT_GPG_FINGERPRINT**  | Your GPG ID or fingerprint                                                   | none          |
 | **CONTACT_NAME**             | Your name                                                                    | none          |
 | **CONTACT_EMAIL**            | Your contact email                                                           | none          |
-| **RELAY_BANDWIDTH_RATE**     | Limit how much traffic will be allowed through your relay (must be > 20KB/s) | 1000 KBytes    |
-| **RELAY_BANDWIDTH_BURST**    | Allow temporary bursts up to a certain amount                                | 1000 KBytes    |
+| **RELAY_BANDWIDTH_RATE**     | Limit how much traffic will be allowed through your relay (must be > 20KB/s) | 1000 KBytes   |
+| **RELAY_BANDWIDTH_BURST**    | Allow temporary bursts up to a certain amount                                | 1000 KBytes   |
 | **RELAY_PORT**               | Default port used for incoming Tor connections (ORPort)                      | 9001          |
